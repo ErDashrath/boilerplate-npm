@@ -1,16 +1,30 @@
 {
-	
 	"name": "fcc-learn-npm-package-json",
-	"author": "Dashrath",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
+	"version": "1.0.0",
+	"description": "A boilerplate Node.js/Express application for learning npm package management",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+		"url": "git+https://github.com/ErDashrath/boilerplate-npm.git"
+	},
+	"keywords": [
+		"nodejs",
+		"express",
+		"npm",
+		"boilerplate",
+		"freecodecamp",
+		"learning"
+	],
+	"author": "Dashrath",
+	"license": "MIT",
+	"homepage": "https://github.com/ErDashrath/boilerplate-npm#readme",
+	"bugs": {
+		"url": "https://github.com/ErDashrath/boilerplate-npm/issues"
+	},
+	"dependencies": {
+		"express": "^4.14.0"
 	}
 }
